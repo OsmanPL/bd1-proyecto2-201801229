@@ -1,13 +1,13 @@
-drop table Pais  ;
-drop table Region;
-drop table departamento ;
-drop table municipio ;
-drop table eleccion ;
-drop table partido ;
-drop table votacion ;
-drop table sexo ;
-drop table raza ;
 drop table poblacion ;
+drop table raza ;
+drop table sexo ;
+drop table votacion ;
+drop table partido ;
+drop table eleccion ;
+drop table municipio ;
+drop table departamento ;
+drop table Region;
+drop table Pais  ;
 
 
 create table Pais(
@@ -44,7 +44,7 @@ anio_eleccion int not null
 
 create table Partido(
 Id int auto_increment not null primary key,
-Acronimo varchar(100) not null,
+Partido varchar(100) not null,
 Nombre varchar(100) not null
 );
 
