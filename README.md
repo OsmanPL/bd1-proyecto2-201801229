@@ -2,6 +2,15 @@
 | Carnet | Nombre |
 | ------ | -------  |
 | 201801229 |Osman Alejandro Perez Lopez|
+
+En el siguiente proyecto se solicito que se desarrollara un modelo de una base de datos relacional para cubrir la necesidad de tener un sistema escalable y lo más optimo posible. 
+El Instituto Centroamericano electoral (ICE) solicito ayuda para realizar reingeniería al proceso de almacenamiento debido a que actualmente
+hay demasiada inconsistencia que puede provocarles serios problemas legales.
+
+# Alcance
+El modelo sera optimizado por medio de las reglas de normalización (1FN, 2FN Y 3FN) presentadad y explicadas más adelante, esto con el objetivo de mejorar la eficiencia en tiempo de respuesta al realizar consultas de la información almacenada y que la información devuelta sea la correcta.
+
+
 # Normalización
 
 ## 1era. Forma Normal (1FN)
